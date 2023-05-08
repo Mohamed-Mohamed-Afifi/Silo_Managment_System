@@ -1,0 +1,19 @@
+.mile__Accord {
+  border-radius: 1rem !important;
+  background: rgb(59, 165, 146);
+  background: radial-gradient(circle, rgb(59, 165, 146) 0%, rgb(18, 95, 120) 100%);
+  color: white !important;
+}
+.mile__Accord .mile__summary {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mile__Accord .mile__summary .source__quantity__summary {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.mile__Accord .mile__summary .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+  background-color: rgb(235, 231, 30);
+  border-radius: 50%;
+}/*# sourceMappingURL=scale.css.map */

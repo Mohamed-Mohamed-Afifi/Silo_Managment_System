@@ -1,0 +1,28 @@
+@import "../varaibles";
+.gate__table{
+    text-align: right;
+    // field of complete data in table of data
+    .special__field{
+        background-color: $whitesmokeColor;
+        border-bottom: 1px solid #ccc!important;
+    }
+    .create__visit__btn{
+        padding: .4rem 4rem!important;
+      }
+    tr td{
+        color:$whiteColor !important;
+        border-bottom: 0!important;
+    }
+    tr:nth-child(odd)
+    {
+        background-color: $mainColor;
+    }
+    tr:nth-child(even)
+    {
+        background-color: $subColor;
+    }
+    th{
+        background-color: $whitesmokeColor;
+    }
+
+}
